@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_fragment_label">Erste Bewerbung</string>
+    <string name="second_fragment_label">Von Gustavo Murillo</string>
+    <string name="next">Folgen</string>
+    <string name="previous">Bisherige</string>
+    <string name="todo">Pisten</string>
+    <string name="hello_first_fragment">Willkommen zu meinem ersten Fragment</string>
+    <string name="hello_second_fragment">Willkommen zu meinem zweiten Fragment</string>
+    <string name="avatar_description">Nur ein Avatar</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_fragment_label">First app</string>
+    <string name="second_fragment_label">By Gustavo Murillo</string>
+    <string name="next">Next</string>
+    <string name="previous">Preview</string>
+    <string name="todo">TODO</string>
+    <string name="hello_first_fragment">Welcome to my first fragment</string>
+    <string name="hello_second_fragment">Welcome to my second fragment</string>
+    <string name="avatar_description">Just an Avatar</string>
+</resources>

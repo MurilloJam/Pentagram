@@ -1,13 +1,15 @@
 <resources>
-    <string name="app_name">Pentagram</string>
-    <string name="title_activity_main_pentagram">Pentagram</string>
+    <string name="app_name" translatable="false">Pentagram</string>
+    <string name="title_activity_main_pentagram" translatable="false">Pentagram</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First app</string>
-    <string name="second_fragment_label">By Gustavo Murillo</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-    <string name="todo">TODO</string>
+    <string name="first_fragment_label">Primera aplicacion</string>
+    <string name="second_fragment_label">Por Gustavo Murillo</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="todo">Pendientes</string>
 
-    <string name="hello_first_fragment">Hello to my first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment">Bienvenidos a mi primer fragment</string>
+    <string name="hello_second_fragment">Bienvenidos a mi segundo fragment</string>
+
+    <string name="avatar_description">Solo un avatar</string>
 </resources>

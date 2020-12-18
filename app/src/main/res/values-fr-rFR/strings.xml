@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_fragment_label">Première application</string>
+    <string name="second_fragment_label">Par Gustavo Murillo</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <string name="todo">Les pentes</string>
+    <string name="hello_first_fragment">Bienvenue dans mon premier fragment</string>
+    <string name="hello_second_fragment">Bienvenue dans mon deuxième fragment</string>
+    <string name="avatar_description">Juste un avatar</string>
+</resources>
