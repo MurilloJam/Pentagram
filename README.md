@@ -1,25 +1,48 @@
 # Pentagram
 Una sencilla aplicacion Android desarrollada como evaluacion del curso: **Desarrollo de aplicaciones con Android**, en Cursera.
 
-## Comenzando
+## COMENZANDO
 En este repositorio se alojaran los archivos necesarios para compilar la aplicacion Pentagram, a lo largo del desarrollo del proyecto se podra visualizar desde este fichero el progreso y novedades incluidas en cada actualizacion.
 
-## Requisitos
+## REQUISITOS
 La aplicacion esta siendo diseñada con Android Studio 4.1 con el API 23 por lo que, si se desea replicar el proyecto, es indispensable contar con este software.
 
-## Ejecucion de pruebas
-- Referencia a los colores del tema empleando *material design* desde el archivo *Themes.xml*
+## ACTUALIZACIONES
+### SOPORTE MULTILENGUAJE
+Se han generado 3 variantes de lenguaje: Ingles, frances y aleman.
 
-![alt text](assets/@Theme.JPG "Tema")
+**Vista desde el directorio strings**
 
-- Definicion de colores *material design* desde el archivo *Colors.xml*
+![alt text](assets/Multilanguage.JPG "Lenguajes disponibles")
 
-![alt text](assets/@Colors.JPG "Tema")
+**Strings traducidos**
 
-- Resultado en vista vertical
+![alt text](assets/Traslation.JPG "Traduccion de strings")
 
-![alt text](assets/Portrait_view.JPG "Portrait view")
+### REDIMENSION 9PATCH
+Para conseguir fondos adaptables a multiples pantallas se crearon 4 imagenes 9patch, todas partiendo de la imagen proporcionada y generando los siguientes parches:
 
-- Resultado en vista en horizontal
+**Division de los parches generados**
 
-![alt text](assets/Landscape_view.JPG "Portrait view")
+![alt text](assets/9patch_divisions.jpg "9patch")
+
+### Resultados de la redimension 9patch
+
+**Resultados de la imagen 9patch vistos desde un movil con orientacion portrait**
+
+![alt text](assets/Mobile_9patch_portrait.JPG "Vista movil con orientacion portrait")
+
+**Resultados de la imagen 9patch vistos desde un movil con orientacion landscape**
+
+![alt text](assets/Mobile_9patch_landscape.JPG "Vista movil con orientacion landscape")
+
+**Resultados de la imagen 9patch vistos desde un TV**
+
+![alt text](assets/TV_9patch.JPG "Vista en TV")
+
+## SOPORTE A MULTIPLES PANTALLAS
+El soporte a multiples pantallas se estara proporcionando con imagenes 9patch a diferentes densidades
+
+**Definicion de distintas densidades**
+
+![alt text](assets/Structure.JPG "Jerarquia de imagenes 9patch")
